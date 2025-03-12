@@ -1,0 +1,42 @@
+# Ignore large image files
+site/static/img/roasters/
+
+# Python virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# macOS system files
+.AppleDouble
+.LSOverride
+
+# AWS credentials
+aws_config.py
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Large data files
+images/
+coffee_roasters_with_local_images.csv
+coffee-roasters.xlsx
+image_business_mapping.csv
